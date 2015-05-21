@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
-gem 'jc-validates_timeliness'
+gem 'pry-rails', '~> 0.3.4'
+gem 'validates_overlap'
+# gem 'jc-validates_timeliness'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 # Use mysql as the database for Active Record
@@ -35,7 +37,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'rspec-rails', '~> 3.2.1'
-  gem 'factory_girl', '~> 4.5.0'
+  gem 'factory_girl_rails', '~> 4.5.0'
   gem 'faker', '~> 1.4.3'
   gem 'byebug'
 

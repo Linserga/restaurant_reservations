@@ -14,11 +14,11 @@
 ActiveRecord::Schema.define(version: 20150521071408) do
 
   create_table "reservations", force: :cascade do |t|
-    t.time     "start"
-    t.time     "end"
-    t.integer  "table",      limit: 4
-    t.datetime "created_at",           null: false
-    t.datetime "updated_at",           null: false
+    t.datetime "start_at"
+    t.datetime "end_at"
+    t.integer  "table_number", limit: 4
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
   end
 
 end
