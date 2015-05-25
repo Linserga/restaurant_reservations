@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'pry-rails', '~> 0.3.4'
-gem 'validates_overlap'
+# gem 'validates_overlap'
 # gem 'jc-validates_timeliness'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
